@@ -1,113 +1,129 @@
 ✈️ Single Bus Controller ↔ Remote Terminal Communication
-MIL-STD-1553 Protocol Implementation
+MIL-STD-1553 with UPF (Unified Power Format)
 
-This repository contains the design and implementation of a single Bus Controller (BC) to single Remote Terminal (RT) communication system compliant with MIL-STD-1553.
-The project demonstrates deterministic command–response communication, message handling, and data transfer between BC and RT using a 1553-style protocol stack, suitable for avionics and defense embedded systems.
+This repository contains the design and verification of a single Bus Controller (BC) to single Remote Terminal (RT) communication system compliant with MIL-STD-1553, enhanced with Unified Power Format (UPF) to model and verify low-power intent.
+The project demonstrates deterministic command–response communication, memory-backed message handling, and power-aware design methodology suitable for avionics, defense, FPGA, and ASIC flows.
 
 📌 Project Overview
 
-MIL-STD-1553 is a time-division multiplexed, command-response serial data bus used in avionics systems.
+MIL-STD-1553 is a command/response, time-deterministic serial bus used in safety-critical avionics systems.
+
 In this project:
+
 A single Bus Controller (BC) initiates all communication
 A single Remote Terminal (RT) responds deterministically
-Communication follows command → data → status sequencing
-Message data is buffered using internal memory structures
+Message flow follows Command → Data → Status
+A Read-Before-Write dual-port SRAM is used for buffering
+UPF is used to describe and verify power intent
 
 
 🔁 Communication Flow
 
 BC transmits Command Word
-RT decodes command
-Data phase (BC → RT or RT → BC)
+RT decodes command and subaddress
+Data phase (BC→RT or RT→BC)
 RT transmits Status Word
 BC validates response and timing
-All transfers are BC-controlled and deterministic, as required by the 1553 standard.
+All transfers are BC-controlled, ensuring deterministic behavior.
 
-⚙️ Supported Message Types
-
-BC → RT data transfer
-RT → BC data transfer
-Mode command handling (optional)
-Status word generation
-Message error detection (basic)
-
-🧩 Functional Blocks
+⚙️ Functional Blocks
 Bus Controller (BC)
 Command word generation
 Message scheduling
-Data word transmission / reception
-Status word validation
-Timing control
+Data transmit/receive
+Status validation
+Power-aware operation (UPF controlled)
 Remote Terminal (RT)
 Command decoding
 Subaddress handling
 Data buffering
 Status word generation
-Error flag reporting
+Power-state awareness
 
-🧠 Memory & Data Handling
+🧠 Memory Architecture
+Generic Dual-Port SRAM
+Read-Before-Write (RBW) behavior
 
-Message buffers implemented using internal SRAM / DPRAM
-Deterministic read-before-write access
+Used for:
 
-Separate buffers for:
 Command words
 Data words
 Status words
+Safe under concurrent BC/RT access
 
-🛠️ Interface Signals (Conceptual)
-BC Side:
-- cmd_word
-- data_out
-- status_in
-- tx_enable
+🔋 Low-Power Design Using UPF
+This project includes Unified Power Format (UPF) to model and verify low-power intent, which is critical in avionics and space-constrained systems.
 
-RT Side:
-- cmd_in
-- data_in / data_out
-- status_out
-- rx_enable
+Power Domains
+Power Domain	Description
+PD_BC	Bus Controller logic
+PD_RT	Remote Terminal logic
+PD_MEM	Shared DPRAM
+PD_IF	1553 interface logic
 
-🧪 Verification & Testing
+Power States
 
-BC-initiated message tests
-RT response timing validation
-Correct command decoding
-Status word correctness
-Data integrity checks
+ON – Normal operation
+IDLE – Clock gated / low activity
+OFF – Logic powered down (retention optional)
+Power Management Features
+Power switches for BC and RT domains
+Isolation cells between powered-off and powered-on domains
+Retention registers for critical RT state
 
-Test scenarios include:
-Valid command execution
-Invalid subaddress handling
-No-response timeout detection
+Controlled power-up / power-down sequencing
+Safe memory access during power transitions
 
+Example UPF Concepts Used
+create_power_domain PD_RT
+create_supply_net VDD_RT
+create_supply_net VSS
+
+create_power_switch RT_SW \
+  -domain PD_RT \
+  -input_supply VDD \
+  -output_supply VDD_RT \
+  -control RT_PWR_EN
+
+set_isolation ISO_RT \
+  -domain PD_RT \
+  -isolation_power_net VDD \
+  -isolation_ground_net VSS
+
+(Illustrative — actual UPF may vary)
+
+🧪 Power-Aware Verification
+
+Power-up / power-down simulation
+Isolation correctness checks
+Retention behavior validation
+BC ↔ RT communication across power transitions
+UPF + RTL co-simulation
+This enables power-aware simulation, similar to ASIC sign-off flows.
 
 
 🚀 Applications
 
 MIL-STD-1553 avionics systems
-Defense communication buses
-FPGA-based protocol controllers
-Safety-critical embedded designs
-Academic and research platforms
+Safety-critical SoCs
+Low-power defense electronics
+FPGA / ASIC protocol controllers
+Power-aware RTL & UPF training
 
 ⚠️ Notes & Disclaimer
 
-This implementation focuses on single BC ↔ single RT
-Redundant bus (A/B) is not implemented
-Analog front-end (transformer, coupler) is not included
-Intended for learning, prototyping, and research
+Single BC ↔ single RT only
+Redundant bus (A/B) not implemented
+Analog front-end not included
+UPF intent is reference-level, not silicon-qualified
 
 👤 Author
 
 Shishir A
 Electronics & Communication Engineer
+
 Focus Areas:
-
 Avionics Communication Systems
-
-FPGA / RTL Design
-
+RTL Design & Verification
 MIL-STD-1553
-
-Safety-Critical Architectures
+Low-Power Design (UPF / Power-Aware Simulation)
