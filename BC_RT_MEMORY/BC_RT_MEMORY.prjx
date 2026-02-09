@@ -1,0 +1,604 @@
+KEY LIBERO "2025.2"
+KEY CAPTURE "2025.2.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "D:\FPGA_SOC_DESIGN\BC_RT_MEMORY"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "MEMORY::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM_PF\3.0.102\COREAHBLSRAM_PF.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548507"
+SIZE="372"
+PARENT="<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf"
+PARENT="<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf"
+PARENT="<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf"
+PARENT="<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\PF_DPSRAM\1.1.110\PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548508"
+SIZE="246"
+PARENT="<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf"
+PARENT="<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf"
+PARENT="<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf"
+PARENT="<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548493"
+SIZE="7245"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\BC_RX_RAM.v,hdl"
+STATE="utd"
+TIME="1768548493"
+SIZE="33162"
+PARENT="<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548492"
+SIZE="1184"
+PARENT="<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v,hdl"
+STATE="utd"
+TIME="1768548492"
+SIZE="24643"
+PARENT="<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v,hdl"
+STATE="utd"
+TIME="1768548492"
+SIZE="31960"
+PARENT="<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v,hdl"
+STATE="utd"
+TIME="1768548492"
+SIZE="35610"
+PARENT="<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v,hdl"
+STATE="utd"
+TIME="1768548492"
+SIZE="28013"
+PARENT="<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v,hdl"
+STATE="utd"
+TIME="1768548492"
+SIZE="10121"
+PARENT="<project>\component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\PF_DPSRAM_AHB_AXI_0\BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548493"
+SIZE="776"
+PARENT="<project>\component\work\BC_RX_RAM\BC_RX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\BC_RX_RAM\PF_DPSRAM_AHB_AXI_0\BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v,hdl"
+STATE="utd"
+TIME="1768548493"
+SIZE="6476"
+PARENT="<project>\component\work\BC_RX_RAM\PF_DPSRAM_AHB_AXI_0\BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548414"
+SIZE="7245"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\BC_TX_RAM.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="33162"
+PARENT="<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548413"
+SIZE="1184"
+PARENT="<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="24643"
+PARENT="<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="31960"
+PARENT="<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="35610"
+PARENT="<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="28013"
+PARENT="<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="10121"
+PARENT="<project>\component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\PF_DPSRAM_AHB_AXI_0\BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548413"
+SIZE="776"
+PARENT="<project>\component\work\BC_TX_RAM\BC_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\BC_TX_RAM\PF_DPSRAM_AHB_AXI_0\BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v,hdl"
+STATE="utd"
+TIME="1768548413"
+SIZE="6476"
+PARENT="<project>\component\work\BC_TX_RAM\PF_DPSRAM_AHB_AXI_0\BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCLK\FCLK.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548135"
+SIZE="1015"
+ENDFILE
+VALUE "<project>\component\work\MEMORY\MEMORY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548554"
+SIZE="1296"
+ENDFILE
+VALUE "<project>\component\work\RESET_N\RESET_N.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548189"
+SIZE="1024"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v,hdl"
+STATE="utd"
+TIME="1768548369"
+SIZE="24643"
+PARENT="<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v,hdl"
+STATE="utd"
+TIME="1768548369"
+SIZE="31960"
+PARENT="<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v,hdl"
+STATE="utd"
+TIME="1768548369"
+SIZE="35610"
+PARENT="<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v,hdl"
+STATE="utd"
+TIME="1768548369"
+SIZE="28013"
+PARENT="<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v,hdl"
+STATE="utd"
+TIME="1768548369"
+SIZE="10121"
+PARENT="<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548369"
+SIZE="1184"
+PARENT="<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\PF_DPSRAM_AHB_AXI_0\RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548370"
+SIZE="776"
+PARENT="<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\PF_DPSRAM_AHB_AXI_0\RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v,hdl"
+STATE="utd"
+TIME="1768548370"
+SIZE="6476"
+PARENT="<project>\component\work\RT_RX_RAM\PF_DPSRAM_AHB_AXI_0\RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548371"
+SIZE="7245"
+ENDFILE
+VALUE "<project>\component\work\RT_RX_RAM\RT_RX_RAM.v,hdl"
+STATE="utd"
+TIME="1768548370"
+SIZE="33162"
+PARENT="<project>\component\work\RT_RX_RAM\RT_RX_RAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v,hdl"
+STATE="utd"
+TIME="1768548507"
+SIZE="24643"
+PARENT="<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v,hdl"
+STATE="utd"
+TIME="1768548507"
+SIZE="31960"
+PARENT="<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v,hdl"
+STATE="utd"
+TIME="1768548507"
+SIZE="35610"
+PARENT="<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v,hdl"
+STATE="utd"
+TIME="1768548507"
+SIZE="28013"
+PARENT="<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v,hdl"
+STATE="utd"
+TIME="1768548507"
+SIZE="10121"
+PARENT="<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548507"
+SIZE="1184"
+PARENT="<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\PF_DPSRAM_AHB_AXI_0\RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548508"
+SIZE="776"
+PARENT="<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\PF_DPSRAM_AHB_AXI_0\RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v,hdl"
+STATE="utd"
+TIME="1768548508"
+SIZE="6476"
+PARENT="<project>\component\work\RT_TX_RAM\PF_DPSRAM_AHB_AXI_0\RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768548508"
+SIZE="7245"
+ENDFILE
+VALUE "<project>\component\work\RT_TX_RAM\RT_TX_RAM.v,hdl"
+STATE="utd"
+TIME="1768548508"
+SIZE="33162"
+PARENT="<project>\component\work\RT_TX_RAM\RT_TX_RAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "MEMORY::work"
+FILE "<project>\component\work\MEMORY\MEMORY.cxf,actgen_cxf"
+LIST ProjectState5.1
+LIST Impl1
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "MEMORY::work"
+LIST Impl1
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:BC_RT_MEMORY.log
+SmartDesign;FCLK;0
+SmartDesign;MEMORY;0
+SmartDesign;RESET_N;0
+StartPage;StartPage;0
+ACTIVEVIEW;MEMORY
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BC_RX_RAM::work","component\work\BC_RX_RAM\BC_RX_RAM.v","TRUE","FALSE"
+SUBBLOCK "BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\BC_RX_RAM\PF_DPSRAM_AHB_AXI_0\BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+SUBBLOCK "BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\BC_RX_RAM\PF_DPSRAM_AHB_AXI_0\BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM::work","component\work\BC_TX_RAM\BC_TX_RAM.v","TRUE","FALSE"
+SUBBLOCK "BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\BC_TX_RAM\PF_DPSRAM_AHB_AXI_0\BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+SUBBLOCK "BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\BC_TX_RAM\PF_DPSRAM_AHB_AXI_0\BC_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+SUBBLOCK "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+SUBBLOCK "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+SUBBLOCK "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+SUBBLOCK "BC_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\BC_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "BC_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+SUBBLOCK "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+SUBBLOCK "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+SUBBLOCK "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+SUBBLOCK "BC_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\BC_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+SUBBLOCK "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+SUBBLOCK "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+SUBBLOCK "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+SUBBLOCK "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+SUBBLOCK "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+SUBBLOCK "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+SUBBLOCK "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+SUBBLOCK "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram.v","FALSE","FALSE"
+ENDLIST
+LIST "FCLK::work","component\work\FCLK\FCLK.cxf","TRUE","FALSE"
+ENDLIST
+LIST "MEMORY::work","component\work\MEMORY\MEMORY.cxf","TRUE","FALSE"
+SUBBLOCK "BC_RX_RAM::work","component\work\BC_RX_RAM\BC_RX_RAM.v","TRUE","FALSE"
+SUBBLOCK "BC_TX_RAM::work","component\work\BC_TX_RAM\BC_TX_RAM.v","TRUE","FALSE"
+SUBBLOCK "RT_RX_RAM::work","component\work\RT_RX_RAM\RT_RX_RAM.v","TRUE","FALSE"
+SUBBLOCK "RT_TX_RAM::work","component\work\RT_TX_RAM\RT_TX_RAM.v","TRUE","FALSE"
+ENDLIST
+LIST "RESET_N::work","component\work\RESET_N\RESET_N.cxf","TRUE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM::work","component\work\RT_RX_RAM\RT_RX_RAM.v","TRUE","FALSE"
+SUBBLOCK "RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\RT_RX_RAM\PF_DPSRAM_AHB_AXI_0\RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+SUBBLOCK "RT_RX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\RT_RX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\RT_RX_RAM\PF_DPSRAM_AHB_AXI_0\RT_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM::work","component\work\RT_TX_RAM\RT_TX_RAM.v","TRUE","FALSE"
+SUBBLOCK "RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\RT_TX_RAM\PF_DPSRAM_AHB_AXI_0\RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+SUBBLOCK "RT_TX_RAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_PF.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_ECC_RT::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_ECC_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_COREAHBLSRAM_PF_0_CoreAHBLSRAM_AHBLSram_RT::work","component\work\RT_TX_RAM\COREAHBLSRAM_PF_0\rtl\vlog\core\CoreAHBLSRAM_AHBLSram_RT.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM::work","component\work\RT_TX_RAM\PF_DPSRAM_AHB_AXI_0\RT_TX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

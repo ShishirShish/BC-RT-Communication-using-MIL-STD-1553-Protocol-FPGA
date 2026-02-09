@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_SOC_DESIGN/ttl_manchester/simulation
+Etb_ttl_manchester
+Z1 w1768024896
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R0
+Z5 8D:/FPGA_SOC_DESIGN/ttl_manchester/stimulus/tb_TTL_Manchester_Generator.vhd
+Z6 FD:/FPGA_SOC_DESIGN/ttl_manchester/stimulus/tb_TTL_Manchester_Generator.vhd
+l0
+L32 1
+V7_3CJHMNVD7]N]0FPK6DJ3
+!s100 oBEonI9Olc^MdB_AXmlBd3
+Z7 OW;C;2024.3;79
+33
+Z8 !s110 1768025662
+!i10b 1
+Z9 !s108 1768025662.000000
+Z10 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/FPGA_SOC_DESIGN/ttl_manchester/stimulus/tb_TTL_Manchester_Generator.vhd|
+Z11 !s107 D:/FPGA_SOC_DESIGN/ttl_manchester/stimulus/tb_TTL_Manchester_Generator.vhd|
+!i113 1
+Z12 o-2008 -explicit -work presynth -O0
+Z13 tCvgOpt 0
+Asim
+DEx4 work 24 ttl_manchester_generator 0 22 ^3LZ59mG7K^]iPXN_:F7P0
+R2
+R3
+R4
+DEx4 work 17 tb_ttl_manchester 0 22 7_3CJHMNVD7]N]0FPK6DJ3
+!i122 10
+l50
+L35 66
+V=50QjUTUdlPeH]H:zoGNR1
+!s100 JC8OEmkJS[b]?<eg@`2=31
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_ttl_manchester_generator
+Z14 w1768044869
+R3
+R4
+!i122 102
+R0
+R5
+R6
+l0
+L31 1
+VJH;eB9B1dQSWYocR;KgHU1
+!s100 ^7TPK7UI^CnoPJMd]>DMS1
+R7
+33
+Z15 !s110 1768191780
+!i10b 1
+Z16 !s108 1768191780.000000
+R10
+R11
+!i113 1
+R12
+R13
+Aarchitecture_tb
+Z17 DEx4 work 24 ttl_manchester_generator 0 22 f49;Vh20cnEk=^3;@ooDh0
+R3
+R4
+Z18 DEx4 work 27 tb_ttl_manchester_generator 0 22 JH;eB9B1dQSWYocR;KgHU1
+!i122 102
+l41
+Z19 L34 57
+Z20 VG?ZB@7>j1Ydc94SVT9>DA3
+Z21 !s100 _DOBi0b><?IWgSmOX:92X2
+R7
+33
+R15
+!i10b 1
+R16
+R10
+R11
+!i113 1
+R12
+R13
+Asim
+R17
+R3
+R4
+DEx4 work 27 tb_ttl_manchester_generator 0 22 b9X7Mi_:6c:MCl580<5901
+!i122 92
+l43
+L33 54
+VV3?iYz`enB5`eeB69YY]S0
+!s100 ]Y^K5DU[ZB_[h4[VbhKH>1
+R7
+33
+!s110 1768044270
+!i10b 1
+!s108 1768044270.000000
+R10
+R11
+!i113 1
+R12
+R13
+w1768043927
+Abehavioral
+R3
+R4
+DEx4 work 27 tb_ttl_manchester_generator 0 22 Q]]RZK>DQ<OFXF^^8[ChY0
+!i122 28
+l58
+L35 59
+Vh0G:XIeWQ9`03DReYOBlF1
+!s100 jjDA7l9DlAgLAEUFGZOVY3
+R7
+33
+!s110 1768029343
+!i10b 1
+!s108 1768029343.000000
+R10
+R11
+!i113 1
+R12
+R13
+w1768029186
+Aarchitecture_tb_ttl_manchester_generator
+Z22 DEx4 work 24 ttl_manchester_generator 0 22 3fg9lHBna0XmP_IHJ[V?43
+R3
+R4
+DEx4 work 27 tb_ttl_manchester_generator 0 22 `g;8GBbCgnOA;k6@ic_Ya0
+!i122 3
+l47
+L37 55
+V02ZNC=6I]]LmcgO;mA;^D0
+!s100 G6QU2GU8@8;68SOA6kN[?0
+R7
+33
+Z23 !s110 1768024315
+!i10b 1
+!s108 1768024315.000000
+R10
+R11
+!i113 1
+R12
+R13
+w1768023360
+Ettl_manchester_generator
+Z24 w1768044833
+R3
+R4
+!i122 101
+R0
+Z25 8D:/FPGA_SOC_DESIGN/ttl_manchester/hdl/TTL_to_Machester_1553.vhd
+Z26 FD:/FPGA_SOC_DESIGN/ttl_manchester/hdl/TTL_to_Machester_1553.vhd
+l0
+L21 1
+Vf49;Vh20cnEk=^3;@ooDh0
+!s100 mLGY[Y=:QBY=5RBlagQV=1
+R7
+33
+R15
+!i10b 1
+Z27 !s108 1768191779.000000
+Z28 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/FPGA_SOC_DESIGN/ttl_manchester/hdl/TTL_to_Machester_1553.vhd|
+Z29 !s107 D:/FPGA_SOC_DESIGN/ttl_manchester/hdl/TTL_to_Machester_1553.vhd|
+!i113 1
+R12
+R13
+Aarchitecture_ttl_manchester
+R3
+R4
+R17
+!i122 101
+l34
+L30 27
+V]C70PZ`Bc>RWk=H3`_[3:2
+!s100 Ik8FZJh7iA0AFe?PnFHm30
+R7
+33
+R15
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Aarchitecture_ttl_manchester_generator
+R3
+R4
+R22
+!i122 2
+l54
+L37 101
+VOUa=hITGg9>^e?dbK<e091
+!s100 AdZ2j_O60;6zlZHd[K1]T3
+R7
+33
+R23
+!i10b 1
+!s108 1768024314.000000
+R28
+R29
+!i113 1
+R12
+R13
+w1768023146

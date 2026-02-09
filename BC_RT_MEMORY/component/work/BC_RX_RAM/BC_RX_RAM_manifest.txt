@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Fri Jan 16 12:58:13 2026
+Project   :  D:\FPGA_SOC_DESIGN\BC_RT_MEMORY
+Component :  BC_RX_RAM
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/BC_RX_RAM.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSram.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSram_RT.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSram_ECC.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSram_ECC_RT.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_PF.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/PF_DPSRAM_AHB_AXI_0/BC_RX_RAM_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM.v
+    D:/FPGA_SOC_DESIGN/BC_RT_MEMORY/component/work/BC_RX_RAM/BC_RX_RAM.v
+

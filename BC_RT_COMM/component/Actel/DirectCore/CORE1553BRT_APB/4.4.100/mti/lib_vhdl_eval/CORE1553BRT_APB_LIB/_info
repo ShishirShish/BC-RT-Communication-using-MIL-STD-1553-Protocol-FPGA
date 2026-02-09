@@ -1,0 +1,680 @@
+m255
+K4
+z2
+!s11f vlog 2024.3 2024.09, Sep 11 2024
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/mad/Core1553BRT_APB/pre_compile/PF_Obfus_vhd
+Ebfm_1553bbc
+Z1 DPx4 work 11 bfm_package 0 22 QHn1BJ[ZM5QfK12c:n^4J3
+Z2 DPx4 work 8 bfm_misc 0 22 jMfII[HZL@VmkOSjDG_S=3
+Z3 DPx4 work 10 bfm_textio 0 22 >:SQX]hP?fg:84A3RY@GV1
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 OW;C;2024.3;79
+32
+Z8 !s110 1560505717
+!i10b 1
+Z9 w1560426960
+R0
+Z10 8./tb_amba_eval/bfm_1553bbc.vhd
+Z11 F./tb_amba_eval/bfm_1553bbc.vhd
+l0
+L56
+VSUnC@kXn@l:Tdb_nOniMo0
+!s100 T7`WOE_d5iUHF1bVXNnbI2
+Z12 !s108 1560505717.000000
+Z13 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./tb_amba_eval/bfm_1553bbc.vhd|
+Z14 !s107 ./tb_amba_eval/bfm_1553bbc.vhd|
+!i113 1
+Z15 o-work Core1553BRT_APB_lib -O0
+Z16 tExplicit 1 CvgOpt 0
+Atest
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 11 bfm_1553bbc 0 22 SUnC@kXn@l:Tdb_nOniMo0
+R7
+32
+R8
+!i10b 1
+l208
+L75
+V21LXjRKjK;IS9fRk?_B::1
+!s100 IX80A_6F1P5GJGo3ElP:e0
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebfm_apb
+R2
+R3
+R1
+R4
+R6
+R5
+R7
+32
+Z17 !s110 1560505719
+!i10b 1
+Z18 w1550645039
+R0
+Z19 8./obfus_vhdl/bfm_apb.vhd
+Z20 F./obfus_vhdl/bfm_apb.vhd
+l0
+L15
+V?YMTm@[E<R;93@8?YK:3n3
+!s100 dHFY^meAJGbUNcLO=jM<k0
+Z21 !s108 1560505719.000000
+Z22 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/bfm_apb.vhd|
+Z23 !s107 ./obfus_vhdl/bfm_apb.vhd|
+!i113 1
+R15
+R16
+Abfma1i10i
+R2
+R3
+R1
+R4
+R6
+R5
+DEx4 work 7 bfm_apb 0 22 ?YMTm@[E<R;93@8?YK:3n3
+R7
+32
+R17
+!i10b 1
+l191
+L145
+V1NDRNO79PHmBDZJ^MdaD22
+!s100 <86eT=k;[ziJCjAf;`NZA3
+R21
+R22
+R23
+!i113 1
+R15
+R16
+Ebfm_main
+R1
+R2
+R3
+R4
+R6
+R5
+R7
+32
+R17
+!i10b 1
+R18
+R0
+Z24 8./obfus_vhdl/bfm_main.vhd
+Z25 F./obfus_vhdl/bfm_main.vhd
+l0
+L18
+VV=RFD6]MOU:6S0ech<oV42
+!s100 VkFfOk;T9Z=85fWUYQ?GS0
+R21
+Z26 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/bfm_main.vhd|
+Z27 !s107 ./obfus_vhdl/bfm_main.vhd|
+!i113 1
+R15
+R16
+Abfma1i10i
+R1
+R2
+R3
+R4
+R6
+R5
+DEx4 work 8 bfm_main 0 22 V=RFD6]MOU:6S0ech<oV42
+R7
+32
+R17
+!i10b 1
+l294
+L162
+V>k`6P@3AOd>KciJX>eKh[2
+!s100 XQQ8DJS:0cM?bMWnH6hI50
+R21
+R26
+R27
+!i113 1
+R15
+R16
+Pbfm_misc
+R4
+R5
+R6
+R7
+32
+b1
+Z28 !s110 1560505716
+!i10b 1
+Z29 w1538735448
+R0
+Z30 8./obfus_vhdl/misc.vhd
+Z31 F./obfus_vhdl/misc.vhd
+l0
+L40
+VjMfII[HZL@VmkOSjDG_S=3
+!s100 JmYCD84zY`LJA0a0Kb`j52
+b1
+Z32 !s108 1560505715.000000
+Z33 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/misc.vhd|
+Z34 !s107 ./obfus_vhdl/misc.vhd|
+!i113 1
+R15
+R16
+Bbody
+R2
+R4
+R5
+R6
+R7
+32
+R28
+!i10b 1
+l0
+L110
+VXk@=?zlbl^4g]g]52K:Pe0
+!s100 ?dGn9E9UNgTb:VDbKO8Ma3
+R32
+R33
+R34
+!i113 1
+R15
+R16
+Pbfm_package
+R2
+R3
+R4
+R6
+R5
+R7
+32
+b1
+R8
+!i10b 1
+R18
+R0
+Z35 8./obfus_vhdl/bfm_package.vhd
+Z36 F./obfus_vhdl/bfm_package.vhd
+l0
+L16
+VQHn1BJ[ZM5QfK12c:n^4J3
+!s100 7FZIXjM5aHV7S9ILckf`i2
+b1
+Z37 !s108 1560505716.000000
+Z38 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/bfm_package.vhd|
+Z39 !s107 ./obfus_vhdl/bfm_package.vhd|
+!i113 1
+R15
+R16
+Bbody
+R1
+R2
+R3
+R4
+R6
+R5
+R7
+32
+R8
+!i10b 1
+l0
+L1106
+VQPP^iNI]R]HUDi;j:j7iR2
+!s100 MIII[iUUISdiiMGO[a0S00
+R37
+R38
+R39
+!i113 1
+R15
+R16
+Pbfm_textio
+R4
+R6
+R2
+R5
+R7
+32
+b1
+R28
+!i10b 1
+R29
+R0
+Z40 8./obfus_vhdl/textio.vhd
+Z41 F./obfus_vhdl/textio.vhd
+l0
+L109
+V>:SQX]hP?fg:84A3RY@GV1
+!s100 h0nD0DJ43Sd]DCa@Xn2?T2
+b1
+R37
+Z42 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/textio.vhd|
+Z43 !s107 ./obfus_vhdl/textio.vhd|
+!i113 1
+R15
+R16
+Bbody
+R3
+R4
+R6
+R2
+R5
+R7
+32
+R28
+!i10b 1
+l0
+L165
+V91`5lAjbK1fzO20Q8nH2Z0
+!s100 hU8FBOBgP14634M_DdMlP2
+R37
+R42
+R43
+!i113 1
+R15
+R16
+Ebfm_textio_test
+R4
+R2
+R3
+Z44 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R5
+R6
+R7
+32
+R28
+!i10b 1
+R29
+R0
+R40
+R41
+l0
+L702
+VV4KJd;DUF[1z9Z1N<Jg_[0
+!s100 bZT=VaiRDjmG4U<<UAjIY1
+R37
+R42
+R43
+!i113 1
+R15
+R16
+Atb
+R4
+R2
+R3
+R44
+R5
+R6
+DEx4 work 15 bfm_textio_test 0 22 V4KJd;DUF[1z9Z1N<Jg_[0
+R7
+32
+R28
+!i10b 1
+l707
+L706
+VVE[Xe_]e46;gHzO;dOWZM3
+!s100 B9V5f5beKHBU@;W55z4i:2
+R37
+R42
+R43
+!i113 1
+R15
+R16
+Ebfma1i1li
+R1
+R3
+R2
+R4
+R5
+R6
+R7
+32
+R17
+!i10b 1
+R18
+R0
+Z45 8./obfus_vhdl/bfm_ahbtoapb.vhd
+Z46 F./obfus_vhdl/bfm_ahbtoapb.vhd
+l0
+L16
+VZ]^d9PZjQND>?jmC_IKLY3
+!s100 ?e95fo4<AiRG1OS0;Ujec2
+Z47 !s108 1560505718.000000
+Z48 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./obfus_vhdl/bfm_ahbtoapb.vhd|
+Z49 !s107 ./obfus_vhdl/bfm_ahbtoapb.vhd|
+!i113 1
+R15
+R16
+Abfma1io1ol
+R1
+R3
+R2
+R4
+R5
+R6
+DEx4 work 9 bfma1i1li 0 22 Z]^d9PZjQND>?jmC_IKLY3
+R7
+32
+R17
+!i10b 1
+l70
+L42
+Vbj9W:g<48959l3GKEYEEF0
+!s100 S5Oei_NHF0aKzXK?LZMlZ1
+R47
+R48
+R49
+!i113 1
+R15
+R16
+Ebrt_backend
+Z50 DPx4 ieee 20 numeric_std_unsigned 0 22 L9z`>=>LNY9h8oAIomUKm3
+R5
+R6
+R7
+32
+Z51 !s110 1560505718
+!i10b 1
+Z52 w1560426881
+R0
+Z53 8./core300_eval/backend.vhd
+Z54 F./core300_eval/backend.vhd
+l0
+L16
+V?IEl`=KD73oGF^0T>jI<R0
+!s100 9e@a7001d@3dR[6SeY:2;1
+R12
+Z55 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core300_eval/backend.vhd|
+Z56 !s107 ./core300_eval/backend.vhd|
+!i113 1
+R15
+R16
+Artl
+R50
+R5
+R6
+DEx4 work 11 brt_backend 0 22 ?IEl`=KD73oGF^0T>jI<R0
+R7
+32
+R51
+!i10b 1
+l99
+L45
+V3XIcE^dd`[nS04SkRNOc32
+!s100 BUGigJQ>1<2KMeM<<_Q@X2
+R12
+R55
+R56
+!i113 1
+R15
+R16
+Ebrt_cwlegality
+R50
+R5
+R6
+R7
+32
+R51
+!i10b 1
+Z57 w1560426891
+R0
+Z58 8./core300_eval/cwlegality.vhd
+Z59 F./core300_eval/cwlegality.vhd
+l0
+L32
+Vm3IG08bfzZJ>V70C5eC`X3
+!s100 nS2aCO7DcR]?C[baj`8VP3
+R47
+Z60 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core300_eval/cwlegality.vhd|
+Z61 !s107 ./core300_eval/cwlegality.vhd|
+!i113 1
+R15
+R16
+Artl
+R50
+R5
+R6
+DEx4 work 14 brt_cwlegality 0 22 m3IG08bfzZJ>V70C5eC`X3
+R7
+32
+R51
+!i10b 1
+l80
+L40
+VaAcL9a7B?W_OVT_R`b^Fk1
+!s100 Jjf]iZDL@VJJfITHfC1A40
+R47
+R60
+R61
+!i113 1
+R15
+R16
+Ebrt_decoder
+R50
+R5
+R6
+R7
+32
+Z62 !s110 1560505714
+!i10b 1
+Z63 w1560426898
+R0
+Z64 8./core300_eval/decoder.vhd
+Z65 F./core300_eval/decoder.vhd
+l0
+L16
+V?CI`f0_;>UL2oZA>DA2A=1
+!s100 ]<PM2n<F>Sb[eIzdOGhaB2
+Z66 !s108 1560505714.000000
+Z67 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core300_eval/decoder.vhd|
+Z68 !s107 ./core300_eval/decoder.vhd|
+!i113 1
+R15
+R16
+Artl
+R50
+R5
+R6
+DEx4 work 11 brt_decoder 0 22 ?CI`f0_;>UL2oZA>DA2A=1
+R7
+32
+R62
+!i10b 1
+l94
+L34
+VXDfjh3SWOM0noMKEGlXG33
+!s100 9Yg]`>69EBmWHmCjAD2hH2
+R66
+R67
+R68
+!i113 1
+R15
+R16
+Ebrt_encoder
+R50
+R5
+R6
+R7
+32
+Z69 !s110 1560505715
+!i10b 1
+Z70 w1560426907
+R0
+Z71 8./core300_eval/encoder.vhd
+Z72 F./core300_eval/encoder.vhd
+l0
+L17
+V;IK1aHP7T3f`Cf[5PI1J13
+!s100 VcM6^@A_Nk0ij8cge4;n83
+R32
+Z73 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core300_eval/encoder.vhd|
+Z74 !s107 ./core300_eval/encoder.vhd|
+!i113 1
+R15
+R16
+Artl
+R50
+R5
+R6
+DEx4 work 11 brt_encoder 0 22 ;IK1aHP7T3f`Cf[5PI1J13
+R7
+32
+R69
+!i10b 1
+l113
+L45
+V`8mLd[jJR6bLc2o[jI4KE2
+!s100 of3oQej36T4[RWXDCPZY03
+R32
+R73
+R74
+!i113 1
+R15
+R16
+Ebrt_rt1553b
+R4
+Z75 DPx4 work 7 rtcomps 0 22 gO_1[B[`;7U9AfIS:oU]?1
+R50
+R5
+R6
+R7
+32
+R51
+!i10b 1
+Z76 w1560426919
+R0
+Z77 8./core300_eval/RT1553B.vhd
+Z78 F./core300_eval/RT1553B.vhd
+l0
+L23
+VaF[?g0MO6YI>0oC^NbQhP3
+!s100 QgcIm_9fgonHboK7KBejV3
+R47
+Z79 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core300_eval/RT1553B.vhd|
+Z80 !s107 ./core300_eval/RT1553B.vhd|
+!i113 1
+R15
+R16
+Artl
+R4
+R75
+R50
+R5
+R6
+DEx4 work 11 brt_rt1553b 0 22 aF[?g0MO6YI>0oC^NbQhP3
+R7
+32
+R51
+!i10b 1
+l439
+L91
+VNlAX^Nhj;4LOVd1ITSAS?0
+!s100 GDO^hG`M`IdYNZ>i0Yb5J1
+R47
+R79
+R80
+!i113 1
+R15
+R16
+Pcore1553brt_apb_c0_core1553brt_apb_c0_0_components
+R4
+R50
+R5
+R6
+!i122 1
+Z81 w1768802667
+Z82 dD:/FPGA_SOC_DESIGN/BC_RT_COMM/simulation
+8D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/work/CORE1553BRT_APB_C0/CORE1553BRT_APB_C0_0/rtl/vhdl/amba_eval/components.vhd
+FD:/FPGA_SOC_DESIGN/BC_RT_COMM/component/work/CORE1553BRT_APB_C0/CORE1553BRT_APB_C0_0/rtl/vhdl/amba_eval/components.vhd
+l0
+L16 56
+V`n2Q7Z?b2N6CE]7QM73]l2
+!s100 ;e3^JV6k2_[M1^KDUSD3L3
+R7
+33
+Z83 !s110 1768883597
+!i10b 1
+Z84 !s108 1768883597.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|CORE1553BRT_APB_LIB|D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/work/CORE1553BRT_APB_C0/CORE1553BRT_APB_C0_0/rtl/vhdl/amba_eval/components.vhd|
+!s107 D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/work/CORE1553BRT_APB_C0/CORE1553BRT_APB_C0_0/rtl/vhdl/amba_eval/components.vhd|
+!i113 1
+Z85 o-2008 -explicit -work CORE1553BRT_APB_LIB -O0
+Z86 tCvgOpt 0
+Pcore1553brt_package
+R5
+R6
+R7
+32
+b1
+R69
+!i10b 1
+R18
+R0
+Z87 8./core_eval/Core1553BRT_package.vhd
+Z88 F./core_eval/Core1553BRT_package.vhd
+l0
+L9
+VgjX9B?0n]5=IDeg8:jfCB3
+!s100 e5`m3[j16e1bFQS=Kc[[P3
+b1
+R66
+Z89 !s90 -reportprogress|300|-work|Core1553BRT_APB_lib|./core_eval/Core1553BRT_package.vhd|
+Z90 !s107 ./core_eval/Core1553BRT_package.vhd|
+!i113 1
+R15
+R16
+Bbody
+DPx4 work 19 core1553brt_package 0 22 gjX9B?0n]5=IDeg8:jfCB3
+R5
+R6
+R7
+32
+R69
+!i10b 1
+l0
+L17
+VD5?3UdjYKH4UC?Z5Tgf4n2
+!s100 aJjkg8F=i]WHFQ6J6V:GC2
+R66
+R89
+R90
+!i113 1
+R15
+R16
+Prtcomps
+R4
+R50
+R5
+R6
+!i122 0
+R81
+R82
+8D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/Actel/DirectCore/CORE1553BRT_APB/4.4.100/rtl/vhdl/core300_eval/rtcomps.vhd
+FD:/FPGA_SOC_DESIGN/BC_RT_COMM/component/Actel/DirectCore/CORE1553BRT_APB/4.4.100/rtl/vhdl/core300_eval/rtcomps.vhd
+l0
+L18 155
+VKmnMZnm9Ub13<0Zj9<PFB0
+!s100 E4`oB>XFG37fnhP]UIaT23
+R7
+33
+R83
+!i10b 1
+R84
+!s90 -reportprogress|300|-2008|-explicit|-work|CORE1553BRT_APB_LIB|D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/Actel/DirectCore/CORE1553BRT_APB/4.4.100/rtl/vhdl/core300_eval/rtcomps.vhd|
+!s107 D:/FPGA_SOC_DESIGN/BC_RT_COMM/component/Actel/DirectCore/CORE1553BRT_APB/4.4.100/rtl/vhdl/core300_eval/rtcomps.vhd|
+!i113 1
+R85
+R86

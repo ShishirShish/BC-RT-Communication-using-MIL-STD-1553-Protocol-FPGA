@@ -1,0 +1,430 @@
+KEY LIBERO "2025.2"
+KEY CAPTURE "2025.2.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "D:\FPGA_SOC_DESIGN\BC_RT_COMM"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+CORE1553BRT_APB_LIB
+ENDLIST
+LIST LIBRARY_CORE1553BRT_APB_LIB
+ALIAS=CORE1553BRT_APB_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CORE1553BRT_APB\4.4.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1768802667"
+SIZE="1027"
+LIBRARY="CORE1553BRT_APB_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORE1553BRT_APB\4.4.100\rtl\vhdl\tb_amba_eval\transceiver.vhd,tb_hdl"
+STATE="utd"
+TIME="1768802667"
+SIZE="1780"
+LIBRARY="CORE1553BRT_APB_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\PF_DPSRAM\1.1.110\PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768974868"
+SIZE="246"
+PARENT="<project>\component\work\RT_Memory_SD\RT_Memory_SD.cxf"
+ENDFILE
+VALUE "<project>\component\work\bcrt\bcrt.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768972652"
+SIZE="100143"
+ENDFILE
+VALUE "<project>\component\work\bcrt\bcrt.sdc,sdc"
+STATE="utd"
+TIME="1768972652"
+SIZE="79"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\bcrt\bcrt.v,hdl"
+STATE="utd"
+TIME="1768972652"
+SIZE="139788"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\bcrt\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v,hdl"
+STATE="utd"
+TIME="1768972652"
+SIZE="229946"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\memory\memory.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768979589"
+SIZE="1088"
+ENDFILE
+VALUE "<project>\component\work\RT_Memory_SD\RT_Memory_SD.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768974868"
+SIZE="6433"
+ENDFILE
+VALUE "<project>\component\work\RT_Memory_SD\RT_Memory_SD.v,hdl"
+STATE="utd"
+TIME="1768974868"
+SIZE="4481"
+PARENT="<project>\component\work\RT_Memory_SD\RT_Memory_SD.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RT_Memory_SD\RT_Memory_SD_0\RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1768974868"
+SIZE="772"
+PARENT="<project>\component\work\RT_Memory_SD\RT_Memory_SD.cxf"
+ENDFILE
+VALUE "<project>\component\work\RT_Memory_SD\RT_Memory_SD_0\RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM.v,hdl"
+STATE="utd"
+TIME="1768974868"
+SIZE="2801"
+PARENT="<project>\component\work\RT_Memory_SD\RT_Memory_SD_0\RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\hdl\ MIL1553_Memory_FSM_Split.vhd,hdl"
+STATE="utd"
+TIME="1768971915"
+SIZE="9204"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1768972652"
+SIZE="808"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_user.bfm,sim"
+STATE="utd"
+TIME="1768969413"
+SIZE="873"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1768972652"
+SIZE="808"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_user.bfm,sim"
+STATE="utd"
+TIME="1768969413"
+SIZE="873"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1768972652"
+SIZE="770"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_user.bfm,sim"
+STATE="utd"
+TIME="1768969413"
+SIZE="873"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1768972652"
+SIZE="828"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_user.bfm,sim"
+STATE="utd"
+TIME="1768969413"
+SIZE="873"
+PARENT="<project>\component\work\bcrt\bcrt.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1768972530"
+SIZE="808"
+ENDFILE
+VALUE "<project>\simulation\tb_MIL1553_Memory_FSM_Split_presynth_simulation.log,log"
+STATE="utd"
+TIME="1768972828"
+SIZE="3655"
+ENDFILE
+VALUE "<project>\stimulus\TB_MIL1553_MEMORY_FSM.vhd,tb_hdl"
+STATE="utd"
+TIME="1768970957"
+SIZE="9234"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "bcrt::work"
+FILE "<project>\component\work\bcrt\bcrt.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\bcrt\bcrt.sdc,sdc"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_user.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "MIL1553_Memory_FSM_Split::work"
+FILE "<project>\hdl\ MIL1553_Memory_FSM_Split.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_MIL1553_MEMORY_FSM.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST bcrt
+VALUE "<project>\component\work\bcrt\bcrt.sdc,sdc"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC0_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC1_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_FIC3_user.bfm,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\bcrt_PFSOC_MSS_PROCESSOR_user.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=tb_MIL1553_Memory_FSM_Split
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "MIL1553_Memory_FSM_Split::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+HDL;hdl\ MIL1553_Memory_FSM_Split.vhd;0
+HDL;stimulus\TB_MIL1553_MEMORY_FSM.vhd;0
+StartPage;StartPage;0
+SmartDesign;memory;0
+ACTIVEVIEW;memory
+ENDLIST
+LIST ModuleSubBlockList
+LIST "bcrt::work","component\work\bcrt\bcrt.v","TRUE","FALSE"
+SUBBLOCK "MSS::work","component\work\bcrt\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS::work","component\work\bcrt\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "memory::work","component\work\memory\memory.cxf","TRUE","FALSE"
+SUBBLOCK "MIL1553_Memory_FSM_Split::work","hdl\ MIL1553_Memory_FSM_Split.vhd","FALSE","FALSE"
+SUBBLOCK "RT_Memory_SD::work","component\work\RT_Memory_SD\RT_Memory_SD.v","TRUE","FALSE"
+ENDLIST
+LIST "MIL1553_Memory_FSM_Split::work","hdl\ MIL1553_Memory_FSM_Split.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MIL1553_Memory_FSM_Split::work","hdl\ MIL1553_Memory_FSM_Split.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RT_Memory_SD::work","component\work\RT_Memory_SD\RT_Memory_SD.v","TRUE","FALSE"
+SUBBLOCK "RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM::work","component\work\RT_Memory_SD\RT_Memory_SD_0\RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM::work","component\work\RT_Memory_SD\RT_Memory_SD_0\RT_Memory_SD_RT_Memory_SD_0_PF_DPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "tb_MIL1553_Memory_FSM_Split::work","stimulus\TB_MIL1553_MEMORY_FSM.vhd","FALSE","TRUE"
+SUBBLOCK "MIL1553_Memory_FSM_Split::work","hdl\ MIL1553_Memory_FSM_Split.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreparameters::core1553brt_apb_lib","component\Actel\DirectCore\CORE1553BRT_APB\4.4.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "TRANSCEIVER::core1553brt_apb_lib","component\Actel\DirectCore\CORE1553BRT_APB\4.4.100\rtl\vhdl\tb_amba_eval\transceiver.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "MIL1553_Memory_FSM_Split::work"
+ACTIVETESTBENCH "tb_MIL1553_Memory_FSM_Split::work","stimulus\TB_MIL1553_MEMORY_FSM.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "component\work\bcrt\bcrt.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST
