@@ -74,7 +74,8 @@ Retention registers for critical RT state
 Controlled power-up / power-down sequencing
 Safe memory access during power transitions
 
- UPF Concepts Used
+UPF Concepts Used
+
 create_power_domain PD_RT
 create_supply_net VDD_RT
 create_supply_net VSS
