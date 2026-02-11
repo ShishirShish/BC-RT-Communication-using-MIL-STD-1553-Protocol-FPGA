@@ -74,7 +74,7 @@ Retention registers for critical RT state
 Controlled power-up / power-down sequencing
 Safe memory access during power transitions
 
-Example UPF Concepts Used
+ UPF Concepts Used
 create_power_domain PD_RT
 create_supply_net VDD_RT
 create_supply_net VSS
@@ -90,7 +90,7 @@ set_isolation ISO_RT \
   -isolation_power_net VDD \
   -isolation_ground_net VSS
 
-(Illustrative — actual UPF may vary)
+
 
 🧪 Power-Aware Verification
 
